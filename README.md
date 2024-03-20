@@ -1,3 +1,5 @@
+[![Python package](https://github.com/jordanlambrecht/foldermapper/actions/workflows/python-package.yml/badge.svg)](https://github.com/jordanlambrecht/foldermapper/actions/workflows/python-package.yml)
+
 # FolderMapper
 
 FolderMapper is a Python tool that generates a color-coded tree map of a directory structure, providing a visual representation of the folder hierarchy and file organization.
