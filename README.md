@@ -1,6 +1,3 @@
-The example provided is already in Markdown format. Here it is again for your convenience:
-
-````markdown
 # FolderMapper
 
 FolderMapper is a Python tool that generates a color-coded tree map of a directory structure, providing a visual representation of the folder hierarchy and file organization.
@@ -20,6 +17,7 @@ FolderMapper is a Python tool that generates a color-coded tree map of a directo
    ```bash
    git clone https://github.com/jordanlambrecht/foldermapper.git
    ```
+
 ````
 
 2. Navigate to the project directory:
@@ -46,3 +44,4 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 You can copy and paste this Markdown content into your README.md file for your GitHub repository.
+````
