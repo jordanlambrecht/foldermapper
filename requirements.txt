@@ -1,0 +1,65 @@
+aiohttp==3.8.4
+aiohttp-socks==0.8.0
+aiosignal==1.3.1
+alembic==1.11.1
+async-generator==1.10
+async-timeout==4.0.2
+attrs==23.1.0
+beautifulsoup4==4.12.2
+Brotli @ file:///private/tmp/python-brotli-20231117-5377-1dmlxkj/Brotli-1.1.0
+certifi==2023.5.7
+charset-normalizer==3.1.0
+click @ file:///private/tmp/python-click-20231113-5463-1enrr1r/click-8.1.7
+exceptiongroup==1.1.1
+frozenlist==1.3.3
+greenlet==2.0.2
+h11==0.14.0
+idna==3.4
+instagrapi==2.0.0
+Jinja2 @ file:///private/tmp/python-jinja-20231112-5434-1yb7qop/Jinja2-3.1.2
+jsonpickle==3.0.1
+lxml==4.9.2
+Mako==1.2.4
+MarkupSafe==2.1.3
+mergedeep==1.3.4
+multidict==6.0.4
+numpy @ file:///private/tmp/numpy-20240206-5894-1wazl8/numpy-1.26.4
+outcome==1.2.0
+packaging @ file:///private/tmp/python-packaging-20231018-5368-zv724j/packaging-23.2
+pathspec @ file:///private/tmp/python-pathspec-20231209-4922-onwnai/pathspec-0.12.0
+piexif==1.1.3
+Pillow==10.0.0
+platformdirs @ file:///private/tmp/python-platformdirs-20231204-5317-3q4okz/platformdirs-4.1.0
+praw==7.7.1
+prawcore==2.4.0
+psutil==5.9.5
+psycopg2==2.9.6
+pycryptodomex==3.18.0
+pydantic==1.10.9
+Pygments @ file:///private/tmp/pygments-20231121-5274-1rlyumb/pygments-2.17.2
+PySocks==1.7.1
+python-dateutil==2.8.2
+python-frontmatter==1.0.1
+python-socks==2.3.0
+PyYAML==6.0.1
+requests==2.31.0
+selenium==4.10.0
+selenium-wire==2.1.2
+six==1.16.0
+sniffio==1.3.0
+sortedcontainers==2.4.0
+soupsieve==2.4.1
+SQLAlchemy==1.4.20
+tabulate==0.9.0
+tqdm==4.65.0
+trio==0.22.0
+trio-websocket==0.10.3
+typing_extensions==4.6.3
+ujson==5.8.0
+update-checker==0.18.0
+urllib3==2.0.3
+user-agent==0.1.10
+websocket-client==1.6.4
+win32-setctime==1.1.0
+wsproto==1.2.0
+yarl==1.9.2
