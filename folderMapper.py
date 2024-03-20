@@ -3,6 +3,33 @@ import sys
 import time
 from tabulate import tabulate
 import json
+import subprocess
+
+
+def is_venv():
+    return (hasattr(sys, 'real_prefix') or
+            (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix))
+
+# Check if the script is running in a virtual environment
+if not is_venv():
+    venv_path = 'venv'
+    if not os.path.exists(venv_path):
+        print("Creating virtual environment...")
+        subprocess.check_call([sys.executable, '-m', 'venv', venv_path])
+    
+    # Activate the virtual environment
+    if sys.platform == 'win32':
+        activate_script = os.path.join(venv_path, 'Scripts', 'activate.bat')
+    else:
+        activate_script = os.path.join(venv_path, 'bin', 'activate')
+    
+    os.system(activate_script)
+    # Restart the script within the virtual environment
+    os.execv(sys.executable, ['python'] + sys.argv)
+
+# Install required packages
+required_packages = ['tabulate']
+subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + required_packages)
 
 ###############
 # COLOR SETUP #
