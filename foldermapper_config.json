@@ -1,7 +1,10 @@
 {
-    "show_emojis": false,
-    "ascii_style": "basic",
-    "vertical_connectors": false,
+    "show_emojis": true,
+    "ascii_style": "pipes_dashes",
+    "vertical_connectors": true,
     "show_hidden": false,
-    "file_limit": null
+    "file_limit": 0,
+    "max_depth": 3,
+    "show_files": false,
+    "count_sub_items": true
 }
